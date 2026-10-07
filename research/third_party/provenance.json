@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/ThomasYeoLab/CBIG",
+  "commit": "634f676630929a71297852d01dd92a287103e861",
+  "files": {
+    "CBIG_LICENSE.md": "LICENSE.md",
+    "Schaefer2018_100Parcels_7Networks_order.txt": "stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI/freeview_lut/Schaefer2018_100Parcels_7Networks_order.txt",
+    "Schaefer2018_centroids.csv": "stable_projects/brain_parcellation/Schaefer2018_LocalGlobal/Parcellations/MNI/Centroid_coordinates/Schaefer2018_100Parcels_7Networks_order_FSLMNI152_1mm.Centroid_RAS.csv"
+  },
+  "sha256": {
+    "CBIG_LICENSE.md": "0e38f0e8b304f13de2ce2911320faaa08ced178e031d3bbebc3e4769762e5f50",
+    "Schaefer2018_100Parcels_7Networks_order.txt": "ca212790d0103949c8cfa0f7689f5935cad0d1fbfc06506f1fdf7986bee72786",
+    "Schaefer2018_centroids.csv": "d2814735c4bb3bcea2d9786b68aac48012a997a8f4856fe56ddff9cc13796a53"
+  }
+}
