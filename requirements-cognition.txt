@@ -1,0 +1,5 @@
+-r requirements-research.txt
+pyactr==0.3.2
+minigrid==3.1.0
+simpy==4.1.2
+pygame-ce==2.5.8
