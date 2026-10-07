@@ -1,0 +1,167 @@
+{
+  "engine": "adaptive-cognitive-v6",
+  "tests": {
+    "passed": 74,
+    "failed": 0
+  },
+  "dependency_check": "pip check passed",
+  "live_api": {
+    "agent_id": "28d710ec-d2da-4703-8148-68d23316ec2e",
+    "provider_recall": "pyactr 0.3.2",
+    "normal_memory_api_uses_actr": true,
+    "doorkey_success_rate": 1.0,
+    "learned_policy_success_rate": 1.0,
+    "weights_frozen": true,
+    "participant_predicted_action": "rest",
+    "synthetic_participant_agreement_percent": 100.0,
+    "genome_preserved": true
+  },
+  "source_manifest": [
+    {
+      "file": "actr_memory.py",
+      "sha256": "9e66b1889b46c814dab050d5fba0de9a2babeec70e131561e9d57e5619e740f5"
+    },
+    {
+      "file": "benchmark.py",
+      "sha256": "c3a0fad2b3a7ccf00f5024ca91ad43f86922022fe6b7e57604f2c6482194e67c"
+    },
+    {
+      "file": "benchmark_adaptation.py",
+      "sha256": "5c3e6540f39be6f83f2509cdb5473dc735e64a97a1887d0186cfb47b6c4633c5"
+    },
+    {
+      "file": "benchmark_behavior.py",
+      "sha256": "d4d2df455b701d1c09fc8702923b5afb7cade8e64d82669e68b351a9c714d1be"
+    },
+    {
+      "file": "benchmark_integrations.py",
+      "sha256": "dc296875558a9741a27d861a7de031494f918f3a6b9aae705c7318edc4080b78"
+    },
+    {
+      "file": "brain.py",
+      "sha256": "39279d09e6b8fd474f270aefe0d903cbef4160639319d4b8b9d01f0964f6655c"
+    },
+    {
+      "file": "capabilities.py",
+      "sha256": "4b6f370c14f0ceefbccd4fcd7737076f7fb0eaabbb85fe135d7705ca04c3f704"
+    },
+    {
+      "file": "cognition.py",
+      "sha256": "b742b24a0d599821bc6d5348ec7f6ea8836b20d47c1d2d1836772517d2cc2828"
+    },
+    {
+      "file": "embodied.py",
+      "sha256": "3313812578b4dc75be5a7df042e3cc90f469baa7fc2d79b79e46891e26b73493"
+    },
+    {
+      "file": "embodied_learning.py",
+      "sha256": "2bfabff6fe4fe99e567ba6c425a3f78c46f18d0b961e5fa877349cb78dad009e"
+    },
+    {
+      "file": "engine.py",
+      "sha256": "9464a34a64668e7454f7f4bfc943240a371089c7da1f5062ab47d2dd34a96640"
+    },
+    {
+      "file": "genome.py",
+      "sha256": "0a4fc182172776041018be8dc5459ce4f7238ac825d767373b5ac0fd4371ea7a"
+    },
+    {
+      "file": "human_dynamics.py",
+      "sha256": "b2b3d486dd89c4b7d83d31ce3b6969972af03fc918ab19960afdcbb00f960c13"
+    },
+    {
+      "file": "human_validation.py",
+      "sha256": "bd6ff2ff3e717352f322529617fcdffca23bd074b89a1006e885f42581409043"
+    },
+    {
+      "file": "mind.py",
+      "sha256": "28ebfc307a8f355543a4b9ccae503fe003767d9646b42aac64a4fe43be1acf10"
+    },
+    {
+      "file": "personality.py",
+      "sha256": "d4624b75acbe1f28ebcb1916d7fe0b8eabdceaac1e052f616d5be4f944aab1ae"
+    },
+    {
+      "file": "render_brain_map.py",
+      "sha256": "bb300e33e3547e0b40505bf25c0b83ef4ff196b2f99fc20a3dfdd780fec032b5"
+    },
+    {
+      "file": "server.py",
+      "sha256": "64dcd0e7d14821c1684b480c7e73ff181e1733fae9afeb36b595195250d8d379"
+    },
+    {
+      "file": "service.py",
+      "sha256": "d5a548d12248bb3c46f77b0e61dbde917b8882dff45d059fe0098119f3f7deea"
+    },
+    {
+      "file": "skills.py",
+      "sha256": "9b1abbc9a04bf1478cfc8b39f4211b7fbb94fcb909a82068f3e69b2db3bc7bec"
+    },
+    {
+      "file": "social_model.py",
+      "sha256": "8f5e8504ae2c6e6591c478c0e2a5865d818351e00214a33ffc497309839cb178"
+    },
+    {
+      "file": "store.py",
+      "sha256": "15217b8ee1590457b1f05cb3296d65d9301d9cf6755278ba12233952a71ff9ea"
+    },
+    {
+      "file": "tests\\test_adaptation.py",
+      "sha256": "68759197be7414be830250788e605a66136df9d5df7cdd0eb1ae83b964141ed2"
+    },
+    {
+      "file": "tests\\test_backend.py",
+      "sha256": "eed099fb742c03ed6623fc7e05cd395129ab6401d7511df854e943393e9810e6"
+    },
+    {
+      "file": "tests\\test_cognition.py",
+      "sha256": "4319c8b057a335e2a5be4ad032da6df2cf5e93939c1bb5305da66d8e7e2a5765"
+    },
+    {
+      "file": "tests\\test_dynamics.py",
+      "sha256": "d0b3c6334c2115c7b618a6c53196f79ce9fa826dac1744725e14e73d54d2d860"
+    },
+    {
+      "file": "tests\\test_integrations.py",
+      "sha256": "e32896983329d0eced68669e05ad956498e8e42088343e4101e6ca1635eea3d1"
+    },
+    {
+      "file": "tests\\test_personality.py",
+      "sha256": "402b1d44cd608d3264dbda22447bf1cd8ed8c442c7d31ba2a5483e8a236b5de5"
+    },
+    {
+      "file": "tests\\test_research.py",
+      "sha256": "9c144d3c7a94f5a8c06da7a37f0f3dc5b2aab3b48611ba166d650324aca53291"
+    },
+    {
+      "file": "transfer.py",
+      "sha256": "55601be2e0901481533b6e407d733f8d277a1d981da36133a45371fc5c249103"
+    }
+  ],
+  "benchmark": "integrations_benchmark_v6.json",
+  "upstream_package_provenance": "third_party/upstream_packages/provenance_v6.json",
+  "human_fidelity_measured": false,
+  "human_equivalence_percent": null,
+  "ninety_percent_human_target_achieved": false,
+  "live_language_model": {
+    "status": "model_did_not_select_expected_tool",
+    "participant_tool_verified_in_pipeline": false,
+    "result": {
+      "answer": "rest",
+      "uncertainty": "high",
+      "cited_memory_ids": [
+        136
+      ],
+      "memory_id": 138,
+      "model": "gemma3:4b",
+      "tool_evidence": [],
+      "stages": [
+        "tool planning",
+        "bounded execution",
+        "grounded response"
+      ]
+    },
+    "elapsed_seconds": 124.19,
+    "scope": "Real local language-model tool selection on one fictional fixture; not a human fidelity or general reasoning benchmark"
+  }
+}

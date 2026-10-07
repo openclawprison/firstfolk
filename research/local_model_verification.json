@@ -1,0 +1,27 @@
+{
+  "answer": "700",
+  "uncertainty": "none",
+  "cited_memory_ids": [
+    1
+  ],
+  "memory_id": 2,
+  "model": "gemma3:4b",
+  "tool_evidence": [
+    {
+      "request": {
+        "kind": "arithmetic",
+        "expression": "(41 * 17) + 3"
+      },
+      "result": {
+        "result": 700,
+        "verified_by": "bounded arithmetic interpreter"
+      },
+      "verified": true
+    }
+  ],
+  "stages": [
+    "tool planning",
+    "bounded execution",
+    "grounded response"
+  ]
+}

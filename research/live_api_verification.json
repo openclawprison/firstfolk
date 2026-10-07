@@ -1,0 +1,9 @@
+{
+  "health": "research-cognitive-v2",
+  "atlasParcels": 100,
+  "modules": 16,
+  "routes": 24,
+  "observationMemory": 15,
+  "tick": 7,
+  "gymSuccess": 1.0
+}

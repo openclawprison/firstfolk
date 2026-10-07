@@ -1,0 +1,22 @@
+{
+  "health": {
+    "status": "ok",
+    "engine": "adaptive-cognitive-v3"
+  },
+  "agent_id": "55425805-87f4-40d7-aace-c4ceaea01c76",
+  "student_id": "3a328eae-a381-4de3-a1ef-aa96b03068a4",
+  "heldout_maze_success": 1.0,
+  "heldout_maze_trials": 10,
+  "classifier_accuracy": 1.0,
+  "false_belief": {
+    "actor": "A",
+    "object": "ball",
+    "believed_location": "box",
+    "actual_location": "basket",
+    "evidence_event_index": 0,
+    "belief_differs_from_world": true,
+    "uncertainty": "Actor may have other information; only declared observations are modeled.",
+    "mechanism": "symbolic observation-based bookkeeping"
+  },
+  "profile_persisted": true
+}

@@ -1,0 +1,176 @@
+{
+  "test_suite": {
+    "passed": 26,
+    "failed": 0
+  },
+  "local_model": {
+    "answer": "700",
+    "uncertainty": "none",
+    "cited_memory_ids": [
+      1
+    ],
+    "memory_id": 2,
+    "model": "gemma3:4b",
+    "tool_evidence": [
+      {
+        "request": {
+          "kind": "arithmetic",
+          "expression": "(41 * 17) + 3"
+        },
+        "result": {
+          "result": 700,
+          "verified_by": "bounded arithmetic interpreter"
+        },
+        "verified": true
+      }
+    ],
+    "stages": [
+      "tool planning",
+      "bounded execution",
+      "grounded response"
+    ]
+  },
+  "live_api": {
+    "health": "research-cognitive-v2",
+    "atlasParcels": 100,
+    "modules": 16,
+    "routes": 24,
+    "observationMemory": 15,
+    "tick": 7,
+    "gymSuccess": 1.0
+  },
+  "environment_learning": {
+    "arithmetic": [
+      {
+        "expression": "(41*17)+3",
+        "expected": 700,
+        "actual": 700,
+        "passed": true
+      },
+      {
+        "expression": "2**10",
+        "expected": 1024,
+        "actual": 1024,
+        "passed": true
+      },
+      {
+        "expression": "(15-3)/4",
+        "expected": 3,
+        "actual": 3.0,
+        "passed": true
+      }
+    ],
+    "route": {
+      "reachable": true,
+      "path": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          2,
+          2
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          3,
+          3
+        ]
+      ],
+      "steps": 6,
+      "expanded": 12
+    },
+    "grid_learning": [
+      {
+        "seed": 0,
+        "before": true,
+        "after": true,
+        "training_success_rate": 0.995
+      },
+      {
+        "seed": 1,
+        "before": false,
+        "after": true,
+        "training_success_rate": 1.0
+      },
+      {
+        "seed": 2,
+        "before": true,
+        "after": true,
+        "training_success_rate": 0.985
+      },
+      {
+        "seed": 3,
+        "before": true,
+        "after": true,
+        "training_success_rate": 1.0
+      },
+      {
+        "seed": 4,
+        "before": true,
+        "after": true,
+        "training_success_rate": 1.0
+      }
+    ],
+    "gymnasium_learning": [
+      {
+        "seed": 0,
+        "before": 0.0,
+        "after": 1.0,
+        "version": "1.3.0"
+      },
+      {
+        "seed": 1,
+        "before": 0.03333333333333333,
+        "after": 1.0,
+        "version": "1.3.0"
+      },
+      {
+        "seed": 2,
+        "before": 0.03333333333333333,
+        "after": 1.0,
+        "version": "1.3.0"
+      },
+      {
+        "seed": 3,
+        "before": 0.0,
+        "after": 1.0,
+        "version": "1.3.0"
+      },
+      {
+        "seed": 4,
+        "before": 0.0,
+        "after": 1.0,
+        "version": "1.3.0"
+      }
+    ],
+    "ablation": {
+      "healthy_exploration_score": 1.01385,
+      "disabled_executive_exploration_score": 0.42199,
+      "healthy_recalled_memories": 4,
+      "disabled_hippocampus_recalled_memories": 0
+    },
+    "limitations": "Small fixed environments and software interventions; no human behavioral validation or general intelligence measurement."
+  },
+  "scope": "Software integration and bounded environment tests; no human equivalence claim.",
+  "vision_integration": {
+    "status": "unverified",
+    "live_smoke_test": "HTTP 400",
+    "unit_tests": "input validation and unverified provenance passed"
+  }
+}

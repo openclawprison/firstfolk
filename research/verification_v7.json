@@ -1,0 +1,508 @@
+{
+  "version": "Firstfolk v7",
+  "tests_with_optional_dependencies": {
+    "passed": 91,
+    "skipped": 0
+  },
+  "tests_standard_library": {
+    "total": 91,
+    "passed": 82,
+    "skipped": 9
+  },
+  "autonomous_trials": [
+    {
+      "seed": 7,
+      "ticks": 3000,
+      "learning": true,
+      "stats": {
+        "births": 4,
+        "deaths": 0,
+        "conversations": 34,
+        "agreements": 18,
+        "material_placements": 74,
+        "ignitions": 26,
+        "recoveries": 3,
+        "alive": 8,
+        "max_generation": 2
+      },
+      "actions": {
+        "pair": 1310,
+        "eat": 950,
+        "drink": 723,
+        "rest": 665,
+        "gather": 853,
+        "care": 10002,
+        "rub": 2813,
+        "south": 303,
+        "east": 316,
+        "place": 282,
+        "north": 296,
+        "west": 336,
+        "signal": 422
+      },
+      "learning_updates": 19271,
+      "mean_founder_age_gain": 3000,
+      "health": [
+        0.998,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vocabularies": {
+        "1": {
+          "liquid": [
+            "kuloba"
+          ],
+          "edible": [
+            "sipona"
+          ],
+          "grass": [
+            "nakupo"
+          ]
+        },
+        "2": {
+          "wood": [
+            "babata"
+          ],
+          "grass": [
+            "taloba"
+          ],
+          "edible": [
+            "lotaku"
+          ]
+        },
+        "3": {
+          "edible": [
+            "kukuku"
+          ],
+          "liquid": [
+            "sibaku"
+          ],
+          "grass": [
+            "pobalo"
+          ],
+          "wood": [
+            "nalomi"
+          ]
+        },
+        "4": {
+          "wood": [
+            "babata"
+          ],
+          "grass": [
+            "taloba",
+            "tabaku",
+            "pobalo"
+          ],
+          "edible": [
+            "nasipo"
+          ]
+        },
+        "5": {
+          "liquid": [
+            "kuloba"
+          ],
+          "edible": [
+            "sipona"
+          ],
+          "grass": [
+            "nakupo"
+          ]
+        },
+        "6": {
+          "grass": [
+            "tabaku",
+            "taloba"
+          ],
+          "edible": [
+            "lotaku"
+          ]
+        },
+        "7": {
+          "liquid": [
+            "sibaku"
+          ],
+          "edible": [
+            "kukuku"
+          ],
+          "wood": [
+            "nalomi"
+          ]
+        },
+        "8": {}
+      },
+      "inherited_memory_count": 0,
+      "note": "Generated outcomes, not predetermined milestones or human validation"
+    },
+    {
+      "seed": 19,
+      "ticks": 3000,
+      "learning": true,
+      "stats": {
+        "births": 8,
+        "deaths": 0,
+        "conversations": 94,
+        "agreements": 49,
+        "material_placements": 182,
+        "ignitions": 86,
+        "recoveries": 3,
+        "alive": 12,
+        "max_generation": 3
+      },
+      "actions": {
+        "place": 572,
+        "pair": 2309,
+        "drink": 1282,
+        "rest": 1570,
+        "eat": 1683,
+        "rub": 8536,
+        "south": 449,
+        "gather": 2176,
+        "north": 431,
+        "east": 530,
+        "care": 4120,
+        "signal": 650,
+        "west": 507
+      },
+      "learning_updates": 24815,
+      "mean_founder_age_gain": 3000,
+      "health": [
+        1.0,
+        0.9363,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vocabularies": {
+        "1": {},
+        "2": {
+          "grass": [
+            "kumiku",
+            "basita",
+            "mimiku"
+          ],
+          "liquid": [
+            "minami"
+          ],
+          "edible": [
+            "kubasi"
+          ],
+          "wood": [
+            "kunaku"
+          ],
+          "rock": [
+            "lonalo"
+          ]
+        },
+        "3": {
+          "liquid": [
+            "naloba"
+          ],
+          "grass": [
+            "pobapo"
+          ],
+          "edible": [
+            "lomisi"
+          ],
+          "wood": [
+            "losina"
+          ],
+          "cover": [
+            "simita"
+          ]
+        },
+        "4": {
+          "liquid": [
+            "minami"
+          ],
+          "edible": [
+            "naloku",
+            "kubasi"
+          ],
+          "wood": [
+            "losina"
+          ]
+        },
+        "5": {
+          "liquid": [
+            "minami"
+          ],
+          "edible": [
+            "kubasi"
+          ],
+          "grass": [
+            "basita"
+          ],
+          "rock": [
+            "lonalo",
+            "banaku"
+          ]
+        },
+        "6": {
+          "edible": [
+            "kubasi"
+          ],
+          "grass": [
+            "kumiku"
+          ],
+          "liquid": [
+            "minami"
+          ],
+          "wood": [
+            "kunaku"
+          ]
+        },
+        "7": {
+          "edible": [
+            "kubasi"
+          ],
+          "liquid": [
+            "minami"
+          ]
+        },
+        "8": {
+          "grass": [
+            "basita"
+          ],
+          "edible": [
+            "lomisi",
+            "kubana"
+          ],
+          "rock": [
+            "banaku"
+          ],
+          "liquid": [
+            "naloba"
+          ],
+          "cover": [
+            "simita"
+          ]
+        },
+        "9": {
+          "edible": [
+            "kubasi"
+          ],
+          "grass": [
+            "basita"
+          ]
+        },
+        "10": {
+          "grass": [
+            "pobapo"
+          ],
+          "edible": [
+            "lomisi",
+            "tapolo"
+          ],
+          "liquid": [
+            "sibalo",
+            "minami"
+          ]
+        },
+        "11": {
+          "grass": [
+            "mimiku"
+          ],
+          "liquid": [
+            "minami",
+            "sibalo"
+          ],
+          "edible": [
+            "tapolo"
+          ]
+        },
+        "12": {
+          "edible": [
+            "kubana"
+          ],
+          "grass": [
+            "basita"
+          ]
+        }
+      },
+      "inherited_memory_count": 0,
+      "note": "Generated outcomes, not predetermined milestones or human validation"
+    },
+    {
+      "seed": 41,
+      "ticks": 3000,
+      "learning": true,
+      "stats": {
+        "births": 6,
+        "deaths": 0,
+        "conversations": 79,
+        "agreements": 41,
+        "material_placements": 110,
+        "ignitions": 30,
+        "recoveries": 3,
+        "alive": 10,
+        "max_generation": 3
+      },
+      "actions": {
+        "pair": 2353,
+        "eat": 1465,
+        "drink": 1076,
+        "care": 9980,
+        "place": 467,
+        "rest": 918,
+        "gather": 602,
+        "south": 401,
+        "north": 417,
+        "east": 444,
+        "signal": 565,
+        "west": 445,
+        "rub": 3344
+      },
+      "learning_updates": 22477,
+      "mean_founder_age_gain": 3000,
+      "health": [
+        0.9889,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "vocabularies": {
+        "1": {
+          "liquid": [
+            "miloku",
+            "poloku"
+          ],
+          "grass": [
+            "banapo"
+          ],
+          "edible": [
+            "bamita"
+          ]
+        },
+        "2": {
+          "grass": [
+            "banapo"
+          ],
+          "edible": [
+            "polopo"
+          ],
+          "liquid": [
+            "poloku"
+          ]
+        },
+        "3": {
+          "edible": [
+            "bamita"
+          ],
+          "liquid": [
+            "siloku",
+            "poloku"
+          ]
+        },
+        "4": {
+          "grass": [
+            "namiba",
+            "banapo"
+          ],
+          "liquid": [
+            "poloku"
+          ],
+          "edible": [
+            "kubapo",
+            "nalomi"
+          ]
+        },
+        "5": {
+          "grass": [
+            "nanana"
+          ],
+          "edible": [
+            "bamita",
+            "lomimi"
+          ],
+          "liquid": [
+            "miloku"
+          ]
+        },
+        "6": {
+          "edible": [
+            "bamita"
+          ],
+          "grass": [
+            "banapo"
+          ],
+          "liquid": [
+            "poloku",
+            "siloku"
+          ],
+          "rock": [
+            "lomimi"
+          ]
+        },
+        "7": {
+          "rock": [
+            "lomimi"
+          ],
+          "grass": [
+            "banapo"
+          ],
+          "edible": [
+            "bamita"
+          ]
+        },
+        "8": {
+          "grass": [
+            "misiba"
+          ],
+          "edible": [
+            "batapo"
+          ]
+        },
+        "9": {
+          "grass": [
+            "nanana"
+          ],
+          "edible": [
+            "polopo"
+          ],
+          "liquid": [
+            "poloku"
+          ]
+        },
+        "10": {
+          "grass": [
+            "nanana"
+          ],
+          "edible": [
+            "lomimi"
+          ]
+        }
+      },
+      "inherited_memory_count": 0,
+      "note": "Generated outcomes, not predetermined milestones or human validation"
+    }
+  ],
+  "scope": {
+    "human_iq": null,
+    "human_equivalence_percent": null,
+    "learned_language": "naming-game tokens only",
+    "births": 18,
+    "deaths_in_3000_tick_trials": 0,
+    "max_generation": 3,
+    "ignition_events": 142,
+    "ignition_intent_demonstrated": false
+  },
+  "publication": "Source-only upload; live saves and virtual environment excluded"
+}

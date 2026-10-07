@@ -1,0 +1,298 @@
+{
+  "engine": "adaptive-cognitive-v4",
+  "tests": {
+    "passed": 48,
+    "failed": 0
+  },
+  "source_inventory": [
+    {
+      "file": "benchmark.py",
+      "lines": 51,
+      "sha256": "c3a0fad2b3a7ccf00f5024ca91ad43f86922022fe6b7e57604f2c6482194e67c"
+    },
+    {
+      "file": "benchmark_adaptation.py",
+      "lines": 69,
+      "sha256": "5c3e6540f39be6f83f2509cdb5473dc735e64a97a1887d0186cfb47b6c4633c5"
+    },
+    {
+      "file": "brain.py",
+      "lines": 116,
+      "sha256": "39279d09e6b8fd474f270aefe0d903cbef4160639319d4b8b9d01f0964f6655c"
+    },
+    {
+      "file": "capabilities.py",
+      "lines": 191,
+      "sha256": "4b6f370c14f0ceefbccd4fcd7737076f7fb0eaabbb85fe135d7705ca04c3f704"
+    },
+    {
+      "file": "cognition.py",
+      "lines": 177,
+      "sha256": "ec691a3e23b9857cc3ace85f53308bfd56ff7718ff44067a25099df05f23e07a"
+    },
+    {
+      "file": "engine.py",
+      "lines": 190,
+      "sha256": "b59930b4fccaec137169eaf9978417d8736c256f5da19f62dc109a9fd86e4c4b"
+    },
+    {
+      "file": "genome.py",
+      "lines": 62,
+      "sha256": "0a4fc182172776041018be8dc5459ce4f7238ac825d767373b5ac0fd4371ea7a"
+    },
+    {
+      "file": "mind.py",
+      "lines": 210,
+      "sha256": "fc2d9b3c208dece3235fcbc5e51dd844f8d67a96083a777f87ea57768ce50d3e"
+    },
+    {
+      "file": "personality.py",
+      "lines": 130,
+      "sha256": "c351e92b826e86b868c64f50dfa93b27355b2802df8d778913e02188d465bc48"
+    },
+    {
+      "file": "render_brain_map.py",
+      "lines": 57,
+      "sha256": "bb300e33e3547e0b40505bf25c0b83ef4ff196b2f99fc20a3dfdd780fec032b5"
+    },
+    {
+      "file": "server.py",
+      "lines": 130,
+      "sha256": "b5de6d31709be80b77d2415702d9eccbef7c4163ca6bf1a1967a998b48485b20"
+    },
+    {
+      "file": "service.py",
+      "lines": 396,
+      "sha256": "d976ea214eba6155080ebb5073f8f8f822c59407ccdb7d7e31aed57073a157df"
+    },
+    {
+      "file": "skills.py",
+      "lines": 118,
+      "sha256": "9b1abbc9a04bf1478cfc8b39f4211b7fbb94fcb909a82068f3e69b2db3bc7bec"
+    },
+    {
+      "file": "social_model.py",
+      "lines": 30,
+      "sha256": "8f5e8504ae2c6e6591c478c0e2a5865d818351e00214a33ffc497309839cb178"
+    },
+    {
+      "file": "store.py",
+      "lines": 60,
+      "sha256": "15217b8ee1590457b1f05cb3296d65d9301d9cf6755278ba12233952a71ff9ea"
+    },
+    {
+      "file": "tests\\test_adaptation.py",
+      "lines": 149,
+      "sha256": "68759197be7414be830250788e605a66136df9d5df7cdd0eb1ae83b964141ed2"
+    },
+    {
+      "file": "tests\\test_backend.py",
+      "lines": 123,
+      "sha256": "eed099fb742c03ed6623fc7e05cd395129ab6401d7511df854e943393e9810e6"
+    },
+    {
+      "file": "tests\\test_cognition.py",
+      "lines": 69,
+      "sha256": "4319c8b057a335e2a5be4ad032da6df2cf5e93939c1bb5305da66d8e7e2a5765"
+    },
+    {
+      "file": "tests\\test_personality.py",
+      "lines": 107,
+      "sha256": "68cc040ce8f96d28daf91c3c5de4848c777bfb1a2faaad1c30aeff20c795bc44"
+    },
+    {
+      "file": "tests\\test_research.py",
+      "lines": 136,
+      "sha256": "9c144d3c7a94f5a8c06da7a37f0f3dc5b2aab3b48611ba166d650324aca53291"
+    },
+    {
+      "file": "transfer.py",
+      "lines": 201,
+      "sha256": "55601be2e0901481533b6e407d733f8d277a1d981da36133a45371fc5c249103"
+    }
+  ],
+  "fresh_agent_inventory": {
+    "inherited_trait_count": 16,
+    "inherited_traits": [
+      "curiosity",
+      "persistence",
+      "sociability",
+      "cooperation",
+      "caution",
+      "trust_prior",
+      "plasticity",
+      "memory_retention",
+      "attention",
+      "planning",
+      "reward_sensitivity",
+      "threat_sensitivity",
+      "novelty_preference",
+      "recovery",
+      "empathy",
+      "reciprocity"
+    ],
+    "developing_disposition_count": 12,
+    "developing_dispositions": [
+      "emotional_regulation",
+      "negative_bias",
+      "positive_bias",
+      "uncertainty_tolerance",
+      "impulsivity",
+      "delay_discounting",
+      "attachment_security",
+      "assertiveness",
+      "achievement_drive",
+      "altruism",
+      "self_compassion",
+      "routine_preference"
+    ],
+    "named_trait_controls": 28,
+    "psychological_need_count": 5,
+    "psychological_needs": [
+      "safety",
+      "self_worth",
+      "autonomy",
+      "competence",
+      "belonging"
+    ],
+    "brain_modules": 16,
+    "synthetic_routes": 24,
+    "brain_control_parameters": 8,
+    "actions": 9,
+    "simulated_skill_counters": 3,
+    "appraisal_dimensions": 4,
+    "human_fidelity_measured": false,
+    "interpretation": "Named engineering controls; not independent, validated human traits or biological genes.",
+    "stored_numeric_state_values": 115,
+    "numeric_state_paths": [
+      "age_ticks",
+      "energy",
+      "stress",
+      "social_need",
+      "novelty_need",
+      "confidence",
+      "resources",
+      "skills.reasoning",
+      "skills.communication",
+      "skills.craft",
+      "learned_values.rest",
+      "learned_values.explore",
+      "learned_values.practice",
+      "learned_values.socialize",
+      "learned_values.help",
+      "learned_values.sleep",
+      "learned_values.eat",
+      "learned_values.drink",
+      "learned_values.reflect",
+      "self_model.successful_actions",
+      "self_model.failed_actions",
+      "brain.weights[0]",
+      "brain.weights[1]",
+      "brain.weights[2]",
+      "brain.weights[3]",
+      "brain.weights[4]",
+      "brain.weights[5]",
+      "brain.weights[6]",
+      "brain.weights[7]",
+      "brain.weights[8]",
+      "brain.weights[9]",
+      "brain.weights[10]",
+      "brain.weights[11]",
+      "brain.weights[12]",
+      "brain.weights[13]",
+      "brain.weights[14]",
+      "brain.weights[15]",
+      "brain.weights[16]",
+      "brain.weights[17]",
+      "brain.weights[18]",
+      "brain.weights[19]",
+      "brain.weights[20]",
+      "brain.weights[21]",
+      "brain.weights[22]",
+      "brain.weights[23]",
+      "brain.parameters.workspace_capacity",
+      "brain.parameters.learning_rate",
+      "brain.parameters.discount",
+      "brain.parameters.habit_weight",
+      "brain.parameters.replay_fraction",
+      "brain.parameters.sleep_threshold",
+      "brain.parameters.inhibition",
+      "brain.parameters.social_update_rate",
+      "brain.activities.sensory",
+      "brain.activities.thalamus",
+      "brain.activities.salience",
+      "brain.activities.hippocampus",
+      "brain.activities.semantic",
+      "brain.activities.working_memory",
+      "brain.activities.executive",
+      "brain.activities.valuation",
+      "brain.activities.striatum",
+      "brain.activities.prediction_error",
+      "brain.activities.threat",
+      "brain.activities.homeostasis",
+      "brain.activities.social",
+      "brain.activities.self_model",
+      "brain.activities.cerebellum",
+      "brain.activities.motor",
+      "body.hunger",
+      "body.sleep_pressure",
+      "body.hydration_need",
+      "affect.valence",
+      "affect.arousal",
+      "affect.fear",
+      "affect.frustration",
+      "prediction_error",
+      "metacognition.samples",
+      "metacognition.squared_error",
+      "metacognition.last_prediction",
+      "replay_count",
+      "personality.dispositions.emotional_regulation",
+      "personality.dispositions.negative_bias",
+      "personality.dispositions.positive_bias",
+      "personality.dispositions.uncertainty_tolerance",
+      "personality.dispositions.impulsivity",
+      "personality.dispositions.delay_discounting",
+      "personality.dispositions.attachment_security",
+      "personality.dispositions.assertiveness",
+      "personality.dispositions.achievement_drive",
+      "personality.dispositions.altruism",
+      "personality.dispositions.self_compassion",
+      "personality.dispositions.routine_preference",
+      "personality.baseline.emotional_regulation",
+      "personality.baseline.negative_bias",
+      "personality.baseline.positive_bias",
+      "personality.baseline.uncertainty_tolerance",
+      "personality.baseline.impulsivity",
+      "personality.baseline.delay_discounting",
+      "personality.baseline.attachment_security",
+      "personality.baseline.assertiveness",
+      "personality.baseline.achievement_drive",
+      "personality.baseline.altruism",
+      "personality.baseline.self_compassion",
+      "personality.baseline.routine_preference",
+      "personality.updates",
+      "psychological_needs.safety",
+      "psychological_needs.self_worth",
+      "psychological_needs.autonomy",
+      "psychological_needs.competence",
+      "psychological_needs.belonging",
+      "appraisal.novelty",
+      "appraisal.goal_congruence",
+      "appraisal.controllability",
+      "appraisal.social_acceptance"
+    ],
+    "state_count_scope": "Includes counters, baseline copies, cached activities and learned weights. Grows with experience; not a trait count."
+  },
+  "live_api": {
+    "agent_id": "b68d3e16-67c9-4e0b-9561-cc37bcbaa681",
+    "genome_preserved": true,
+    "development_updates": 3,
+    "health": {
+      "status": "ok",
+      "engine": "adaptive-cognitive-v4"
+    }
+  },
+  "vision_status": "Previously timed out; not reverified in v4",
+  "human_fidelity_measured": false,
+  "review_scope": "Manual source review, syntax parsing, regression tests and local API checks; not formal verification or a comprehensive security audit."
+}

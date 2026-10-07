@@ -1,0 +1,21 @@
+{
+  "status": "model_did_not_select_expected_tool",
+  "participant_tool_verified_in_pipeline": false,
+  "result": {
+    "answer": "rest",
+    "uncertainty": "high",
+    "cited_memory_ids": [
+      136
+    ],
+    "memory_id": 138,
+    "model": "gemma3:4b",
+    "tool_evidence": [],
+    "stages": [
+      "tool planning",
+      "bounded execution",
+      "grounded response"
+    ]
+  },
+  "elapsed_seconds": 124.19,
+  "scope": "Real local language-model tool selection on one fictional fixture; not a human fidelity or general reasoning benchmark"
+}

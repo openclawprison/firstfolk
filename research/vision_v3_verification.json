@@ -1,0 +1,5 @@
+{
+  "status": "failed",
+  "error": "Model request exceeded 180-second timeout",
+  "provider_protocol": "native Ollama"
+}

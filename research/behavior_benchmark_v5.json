@@ -1,0 +1,263 @@
+{
+  "facet_interventions": [
+    {
+      "trait": "learning_progress_drive",
+      "target": "practice",
+      "signal": "progress",
+      "score_change": 0.03300000000000003,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "creativity",
+      "target": "create",
+      "signal": "autonomy",
+      "score_change": 0.1265,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "diligence",
+      "target": "practice",
+      "signal": "competence",
+      "score_change": 0.1265,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "organization",
+      "target": "plan",
+      "signal": "uncertainty",
+      "score_change": 0.12649999999999997,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "perfectionism",
+      "target": "practice",
+      "signal": "error",
+      "score_change": 0.03300000000000003,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "patience",
+      "target": "plan",
+      "signal": "stress",
+      "score_change": 0.051699999999999996,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "frustration_tolerance",
+      "target": "practice",
+      "signal": "frustration",
+      "score_change": 0.03300000000000003,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "forgiveness",
+      "target": "repair",
+      "signal": "resentment",
+      "score_change": 0.1265,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "gratitude",
+      "target": "help",
+      "signal": "gratitude",
+      "score_change": 0.12649999999999995,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "fairness",
+      "target": "help",
+      "signal": "unfairness",
+      "score_change": 0.1265,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "generosity",
+      "target": "help",
+      "signal": "resources",
+      "score_change": 0.21999999999999997,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "modesty",
+      "target": "practice",
+      "signal": "competence",
+      "score_change": 0.1265,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "social_confidence",
+      "target": "socialize",
+      "signal": "belonging",
+      "score_change": 0.1265,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "rejection_sensitivity",
+      "target": "socialize",
+      "signal": "rejection",
+      "score_change": -0.1265,
+      "expected_direction": -1,
+      "causal_check": true
+    },
+    {
+      "trait": "attachment_anxiety",
+      "target": "socialize",
+      "signal": "loneliness",
+      "score_change": 0.033,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "attachment_avoidance",
+      "target": "socialize",
+      "signal": "belonging",
+      "score_change": -0.1265,
+      "expected_direction": -1,
+      "causal_check": true
+    },
+    {
+      "trait": "sensory_sensitivity",
+      "target": "rest",
+      "signal": "arousal",
+      "score_change": 0.0704,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "loss_aversion",
+      "target": "explore",
+      "signal": "loss",
+      "score_change": -0.033,
+      "expected_direction": -1,
+      "causal_check": true
+    },
+    {
+      "trait": "cognitive_flexibility",
+      "target": "explore",
+      "signal": "repetition",
+      "score_change": 0.033,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "ambiguity_aversion",
+      "target": "explore",
+      "signal": "uncertainty",
+      "score_change": -0.1265,
+      "expected_direction": -1,
+      "causal_check": true
+    },
+    {
+      "trait": "self_discipline",
+      "target": "practice",
+      "signal": "fatigue",
+      "score_change": 0.06104999999999999,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "playfulness",
+      "target": "play",
+      "signal": "boredom",
+      "score_change": 0.033,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "competitiveness",
+      "target": "practice",
+      "signal": "competence",
+      "score_change": 0.1265,
+      "expected_direction": 1,
+      "causal_check": true
+    },
+    {
+      "trait": "deliberation",
+      "target": "plan",
+      "signal": "uncertainty",
+      "score_change": 0.1265,
+      "expected_direction": 1,
+      "causal_check": true
+    }
+  ],
+  "all_new_facets_causal": true,
+  "equal_genome_profile_intervention": {
+    "same_genome": true,
+    "samples_per_profile": 1000,
+    "action_counts": {
+      "Creative configured fixture": {
+        "rest": 174,
+        "explore": 40,
+        "practice": 339,
+        "socialize": 59,
+        "help": 170,
+        "sleep": 21,
+        "eat": 43,
+        "drink": 18,
+        "reflect": 15,
+        "create": 57,
+        "play": 20,
+        "plan": 44,
+        "repair": 0
+      },
+      "Cautious configured fixture": {
+        "rest": 179,
+        "explore": 21,
+        "practice": 355,
+        "socialize": 64,
+        "help": 175,
+        "sleep": 26,
+        "eat": 37,
+        "drink": 24,
+        "reflect": 10,
+        "create": 45,
+        "play": 18,
+        "plan": 46,
+        "repair": 0
+      }
+    },
+    "evaluation_scope": "choice distribution under one fixed synthetic context"
+  },
+  "community": {
+    "agents": 8,
+    "ticks": 100,
+    "action_counts": {
+      "rest": 198,
+      "explore": 18,
+      "practice": 414,
+      "socialize": 16,
+      "help": 52,
+      "sleep": 16,
+      "eat": 35,
+      "drink": 29,
+      "reflect": 1,
+      "create": 5,
+      "play": 8,
+      "plan": 6,
+      "repair": 2
+    },
+    "genomes_preserved": true,
+    "artifact_count": 5,
+    "relationship_histories": 33
+  },
+  "human_comparator": false,
+  "human_fidelity_measured": false,
+  "limitations": [
+    "Interventions test the engineered mechanisms, not their psychological validity.",
+    "Rewards, cooperation and environments are synthetic.",
+    "Choice frequencies are not a human personality score."
+  ]
+}

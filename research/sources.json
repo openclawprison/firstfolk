@@ -1,0 +1,135 @@
+[
+  {
+    "key": "CoALA",
+    "title": "Cognitive Architectures for Language Agents",
+    "url": "https://arxiv.org/abs/2309.02427",
+    "use": "Memory types, decision cycle and modular agent architecture",
+    "status": "Conceptual influence; independent implementation"
+  },
+  {
+    "key": "CLS",
+    "title": "Why there are complementary learning systems in the hippocampus and neocortex",
+    "url": "https://doi.org/10.1037/0033-295X.102.3.419",
+    "use": "Fast episodic recording and slower evidence consolidation",
+    "status": "Simplified engineering analogue; not the original neural model"
+  },
+  {
+    "key": "PFC",
+    "title": "An Integrative Theory of Prefrontal Cortex Function",
+    "url": "https://doi.org/10.1146/annurev.neuro.24.1.167",
+    "use": "Working memory and goal-conditioned control",
+    "status": "Capacity limits and goal bias are engineering choices"
+  },
+  {
+    "key": "RPE",
+    "title": "A Neural Substrate of Prediction and Reward",
+    "url": "https://doi.org/10.1126/science.275.5306.1593",
+    "use": "Prediction-error signals and reinforcement-learning updates",
+    "status": "Numerical prediction errors; no dopamine simulation"
+  },
+  {
+    "key": "REPLAY",
+    "title": "Human hippocampal replay during rest prioritizes weakly learned information and predicts memory performance",
+    "url": "https://www.nature.com/articles/s41467-018-06213-1",
+    "use": "Rest and sleep trigger bounded replay",
+    "status": "Salience replay heuristic, not electrophysiology"
+  },
+  {
+    "key": "ATLAS",
+    "title": "Local-Global Parcellation of the Human Cerebral Cortex from Intrinsic Functional Connectivity MRI",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6095216/",
+    "use": "100 cortical parcel labels and centroid coordinates from authors' repository",
+    "status": "Real atlas metadata; independent synthetic runtime graph"
+  },
+  {
+    "key": "GYM",
+    "title": "Gymnasium / Farama Foundation",
+    "url": "https://github.com/Farama-Foundation/Gymnasium",
+    "use": "Optional actual FrozenLake environment integration",
+    "status": "External MIT-licensed package; Q-learning code independently implemented"
+  },
+  {
+    "key": "TRANSFER",
+    "title": "Successor Features for Transfer in Reinforcement Learning",
+    "url": "https://papers.nips.cc/paper_files/paper/2017/hash/350db081a661525235354dd3e19b8c05-Abstract.html",
+    "use": "Reusable dynamics as motivation",
+    "status": "Independent transition-counting implementation; not successor features"
+  },
+  {
+    "key": "PERSON_SIMULATION",
+    "title": "LLM Agents Grounded in Self-Reports Enable General-Purpose Simulation of Individuals",
+    "url": "https://arxiv.org/abs/2411.10109",
+    "use": "Grounding profile simulations and reserving held-out behavioral examples",
+    "status": "Conceptual influence; no human dataset imported or human fidelity measured"
+  },
+  {
+    "key": "FALSE_BELIEF",
+    "title": "Beliefs about beliefs",
+    "url": "https://doi.org/10.1016/0010-0277(83)90004-5",
+    "use": "Visibility versus actor belief",
+    "status": "Explicit symbolic bookkeeping; no learned human theory of mind"
+  },
+  {
+    "key": "OLLAMA_VISION",
+    "title": "Ollama vision API",
+    "url": "https://docs.ollama.com/capabilities/vision",
+    "use": "Native local model image message format",
+    "status": "Provider adapter; verification recorded separately"
+  },
+  {
+    "key": "SDT",
+    "title": "Basic Psychological Needs",
+    "url": "https://selfdeterminationtheory.org/topics/application-basic-psychological-needs/",
+    "use": "Autonomy, competence and relatedness motivate need-sensitive choice. Safety and self-worth are additional engineering proxies, not SDT basic needs.",
+    "status": "Conceptual motivation; no coefficient validation or questionnaire replication"
+  },
+  {
+    "key": "LEARNING_PROGRESS",
+    "title": "Humans monitor learning progress in curiosity-driven exploration",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/34645800/",
+    "use": "Decreasing action prediction error contributes to intrinsic action preference.",
+    "status": "Simplified proxy; not a replication of the human experiment"
+  },
+  {
+    "key": "TRAIT_STATES",
+    "title": "Toward a structure- and process-integrated view of personality",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/11414368/",
+    "use": "Separate fixed tendencies from context-dependent states.",
+    "status": "Conceptual motivation; no Big Five psychometric claim"
+  },
+  {
+    "key": "APPRAISAL_AGENTS",
+    "title": "An Appraisal-Based Chain-Of-Emotion Architecture for Affective Language Model Game Agents",
+    "url": "https://arxiv.org/abs/2309.05076",
+    "use": "Appraisal and emotional context in dialogue.",
+    "status": "Independent engineered equations; not the paper algorithm"
+  },
+  {
+    "key": "PYACTR",
+    "title": "pyactr ACT-R implementation",
+    "url": "https://github.com/jakdot/pyactr",
+    "use": "Actual upstream declarative-memory retrieval engine, optional persisted policy",
+    "status": "Installed and executed 0.3.2; partial integration, not a complete ACT-R agent"
+  },
+  {
+    "key": "MINIGRID",
+    "title": "MiniGrid environment implementation",
+    "url": "https://github.com/Farama-Foundation/Minigrid",
+    "use": "Actual DoorKey interaction tasks and random-start empty-room learning",
+    "status": "Installed and executed 3.1.0; our planner and learner are separately identified"
+  },
+  {
+    "key": "COMMON_MODEL",
+    "title": "A Standard Model of the Mind",
+    "url": "https://doi.org/10.1609/aimag.v38i4.2744",
+    "use": "Architecture review framework: mechanisms must be distinguished from human performance",
+    "status": "Conceptual review, no claim of complete implementation"
+  },
+  {
+    "key": "MINIGRID_PAPER",
+    "title": "Minigrid & Miniworld: Modular & Customizable Reinforcement Learning Environments",
+    "url": "https://arxiv.org/abs/2306.13831",
+    "use": "Reproducible perception-action task design",
+    "status": "Actual upstream environment integration"
+  }
+]

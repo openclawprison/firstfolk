@@ -1,0 +1,1547 @@
+{
+  "movement_training": {
+    "skill": "movement-v1",
+    "new_training_steps": 600,
+    "learned_displacements": {
+      "1": [
+        1,
+        0
+      ],
+      "2": [
+        0,
+        1
+      ],
+      "0": [
+        0,
+        -1
+      ],
+      "3": [
+        -1,
+        0
+      ]
+    },
+    "algorithm": "transition counting + learned movement model + engineered frontier planner",
+    "scope": "transfer within cardinal grid movement; not human general intelligence"
+  },
+  "heldout_11x11": {
+    "trials": [
+      {
+        "seed": 1000,
+        "layout_hash": "0bedeee6cb5294a8fd5bffc1edcf7d9b32e6ea780d7428dc24d12be436415bd3",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 154,
+          "known_cells": 28,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 28,
+          "collisions": 0,
+          "known_cells": 78,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1001,
+        "layout_hash": "03bd65a0ede2210ff9e294d8877732686ad11ccb3621e204db8a99fa5098013c",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 155,
+          "known_cells": 68,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 54,
+          "collisions": 0,
+          "known_cells": 98,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1002,
+        "layout_hash": "056cea5031e3260f773ff1c93db971559f1d57ebb87f5203a8e073ad42fc7b12",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 151,
+          "known_cells": 37,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 24,
+          "collisions": 0,
+          "known_cells": 64,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1003,
+        "layout_hash": "4e649a4cd02dd734a0fcb79a9078e8205caa3e4a9e09f874d87f244907e54802",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 165,
+          "known_cells": 35,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 24,
+          "collisions": 0,
+          "known_cells": 67,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1004,
+        "layout_hash": "358e19515d771db73d04a7463e22ffd89c555ff159df70e8b308d9c9954dfb19",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 161,
+          "known_cells": 30,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 66,
+          "collisions": 0,
+          "known_cells": 105,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1005,
+        "layout_hash": "0d3b789d1c6c2ceb3a8c57a3cf0c2a54dec0f39eb26ad20be0e216346549cbb2",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 153,
+          "known_cells": 36,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 40,
+          "collisions": 0,
+          "known_cells": 101,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1006,
+        "layout_hash": "7b18134cf83862fa81c8b9eab536f638e27077fbcc7ed41d2fb413425678cac4",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 148,
+          "known_cells": 51,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 52,
+          "collisions": 0,
+          "known_cells": 111,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1007,
+        "layout_hash": "11e2324c69bb14fadd88ec6586fb38add97a1224b2ce033259e87160ba7e73ca",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 146,
+          "known_cells": 38,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 20,
+          "collisions": 0,
+          "known_cells": 56,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1008,
+        "layout_hash": "507fc7a58464fd7296d567b616badb573934f984511aa13a6d2c5e10cabf40a8",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 168,
+          "known_cells": 34,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 32,
+          "collisions": 0,
+          "known_cells": 82,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1009,
+        "layout_hash": "fc88890135a47989bf815c8b98f97e8d4b48703f4678c0464e654b2a2ee50459",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 162,
+          "known_cells": 32,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 32,
+          "collisions": 0,
+          "known_cells": 81,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1010,
+        "layout_hash": "fdb9bea9029a774cc96229c25b3c4e02ceb1e22bd9aae9e71d21141cdffc3846",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 173,
+          "known_cells": 36,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 20,
+          "collisions": 0,
+          "known_cells": 58,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1011,
+        "layout_hash": "e31ace8054b502ea410b3509e8dbde9e12779bef4222f4bde8142ccd79cffd96",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 167,
+          "known_cells": 39,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 36,
+          "collisions": 0,
+          "known_cells": 90,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1012,
+        "layout_hash": "b7e799de7e0ab093eaa39e459b00d8f999a240d62b17d9d067d325562e82db18",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 144,
+          "known_cells": 58,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 36,
+          "collisions": 0,
+          "known_cells": 91,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1013,
+        "layout_hash": "62c2cc7b29e0039e28a34f5594a95117a7b4937bc66618fec721bfcd190056ea",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 162,
+          "known_cells": 29,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 24,
+          "collisions": 0,
+          "known_cells": 66,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1014,
+        "layout_hash": "901b396daab99ee655d745e7ad7880cdbfa0833db697049816c08e73b26310fa",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 151,
+          "known_cells": 51,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 24,
+          "collisions": 0,
+          "known_cells": 68,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1015,
+        "layout_hash": "6bfab98e4b2a905e9c01d6b9012091663c3a3c101baff4f5de96b54460da3477",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 147,
+          "known_cells": 27,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 34,
+          "collisions": 0,
+          "known_cells": 87,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1016,
+        "layout_hash": "f14ff43a408d8f0e70e774c9c355d1df3edb8a02957f3a04320f78e700db7511",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 158,
+          "known_cells": 39,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 16,
+          "collisions": 0,
+          "known_cells": 50,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1017,
+        "layout_hash": "86a4432cb9d530530c7531bd05c1a1cda291af7a7884a3c414bd93d3b376a5e1",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 178,
+          "known_cells": 22,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 32,
+          "collisions": 0,
+          "known_cells": 86,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1018,
+        "layout_hash": "5972f41e8c40fb6df981c045c6bca03358bfeae5440fd1ad10390f8052703ed8",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 159,
+          "known_cells": 29,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 62,
+          "collisions": 0,
+          "known_cells": 112,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 1019,
+        "layout_hash": "9d4b5abbdaaee0a308ae9210b6de0810c5cdeac8a7f2a301769ff9e429e3c710",
+        "baseline": {
+          "success": false,
+          "steps": 300,
+          "collisions": 147,
+          "known_cells": 36,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 56,
+          "collisions": 0,
+          "known_cells": 101,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      }
+    ],
+    "baseline_success_rate": 0.0,
+    "transfer_success_rate": 1.0,
+    "frozen_weights": true,
+    "held_out_layouts": true,
+    "baseline": "random actions, same local observation interface and step budget",
+    "scope": "learned primitive dynamics reused by an engineered planner on unseen layouts"
+  },
+  "heldout_15x15": {
+    "trials": [
+      {
+        "seed": 2000,
+        "layout_hash": "38230168b392442fe6404bfec9bf676af65b8f35fc808ea2ce9b3c41003c9a89",
+        "baseline": {
+          "success": true,
+          "steps": 413,
+          "collisions": 231,
+          "known_cells": 79,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 28,
+          "collisions": 0,
+          "known_cells": 79,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2001,
+        "layout_hash": "719b586d6381c40b63f43da5db2719364de08d059a8406aa042abb5c44948aae",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 337,
+          "known_cells": 73,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 32,
+          "collisions": 0,
+          "known_cells": 89,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2002,
+        "layout_hash": "3eee23d24f31621edfc732308532fbacfdde9ee2d4ef6fc54b1b25920f9309b3",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 347,
+          "known_cells": 42,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 36,
+          "collisions": 0,
+          "known_cells": 98,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2003,
+        "layout_hash": "03e5580e5c75b38b05b9438b1f806caf5932cc666bdb5458ef6c1465590852d1",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 328,
+          "known_cells": 90,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 40,
+          "collisions": 0,
+          "known_cells": 110,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2004,
+        "layout_hash": "99381207cb456ed96def13bc441af41b9ee5271e528cf0302ec2722942bb25d6",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 318,
+          "known_cells": 55,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 36,
+          "collisions": 0,
+          "known_cells": 96,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2005,
+        "layout_hash": "88baa460ffd84906f1cfce5d3b16c5e6faab5a43a94852c8330c5fb014302eb0",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 313,
+          "known_cells": 38,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 92,
+          "collisions": 0,
+          "known_cells": 146,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2006,
+        "layout_hash": "7b6b65de662f67793c00e602d7989e799a541cbc3db91feda4367d7f92168604",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 307,
+          "known_cells": 64,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 48,
+          "collisions": 0,
+          "known_cells": 122,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2007,
+        "layout_hash": "b38c60b426d9dc1b3eecfd5eb43aab1e38ab3d9295173fa28f73925a07db6e99",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 314,
+          "known_cells": 32,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 120,
+          "collisions": 0,
+          "known_cells": 180,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2008,
+        "layout_hash": "da2d58b94254f56f16e5e23cf226332a4e4850e8eb99c5c5c3d7a89c18f535a3",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 294,
+          "known_cells": 45,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 32,
+          "collisions": 0,
+          "known_cells": 88,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2009,
+        "layout_hash": "1464b5ef127cdd4066422d6a98b1461cb88221d18d4de2a3e4ce3a96ee215619",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 325,
+          "known_cells": 105,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 86,
+          "collisions": 0,
+          "known_cells": 192,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2010,
+        "layout_hash": "16057615e47626ea49d2c697a43c198560fe6676e3dfa5cc64c097e4ecba8642",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 296,
+          "known_cells": 64,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 104,
+          "collisions": 0,
+          "known_cells": 189,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2011,
+        "layout_hash": "fe0856031a8978c80717a966c536d4929075c7bf8add14ef32a1cf3395a5f8d8",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 305,
+          "known_cells": 46,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 76,
+          "collisions": 0,
+          "known_cells": 189,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2012,
+        "layout_hash": "cd15f6f681aa229375763cc2c99f400b6332559ad1571c74dd7d4e7ec73326e5",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 307,
+          "known_cells": 55,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 36,
+          "collisions": 0,
+          "known_cells": 100,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2013,
+        "layout_hash": "8303b0f251ac1ee7d1025c6444f011ab462db096c335d968e1dd9f8ab19a0c0f",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 280,
+          "known_cells": 129,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 44,
+          "collisions": 0,
+          "known_cells": 114,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2014,
+        "layout_hash": "a2c4528b22f890bee7c320f0917778f506b1d6c25e78430091e6e48c830c5089",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 315,
+          "known_cells": 57,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 28,
+          "collisions": 0,
+          "known_cells": 82,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2015,
+        "layout_hash": "ace40f5cc9f9797d91daa380141eba0a096c3f5e73c27881f4048230dd3fc593",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 313,
+          "known_cells": 100,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 44,
+          "collisions": 0,
+          "known_cells": 117,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2016,
+        "layout_hash": "9408f618759c462ab373d38df6bb21b2504122a49ceef0dddf00ef6b7fe0850d",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 312,
+          "known_cells": 52,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 44,
+          "collisions": 0,
+          "known_cells": 121,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2017,
+        "layout_hash": "c6a14c425aca5c7e64083e93d1eed96f4ce9070c3a648d883e0db2c9f49587c1",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 289,
+          "known_cells": 86,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 102,
+          "collisions": 0,
+          "known_cells": 178,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2018,
+        "layout_hash": "ec06bf068079f4e08e69589632b24f9772b8a7bb5f2734288c7177dcb05b5401",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 291,
+          "known_cells": 69,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 44,
+          "collisions": 0,
+          "known_cells": 114,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      },
+      {
+        "seed": 2019,
+        "layout_hash": "407b10972cc8adcf63b5e528dbda50c2e0e03a22f05216924c7658486dd44be1",
+        "baseline": {
+          "success": false,
+          "steps": 600,
+          "collisions": 307,
+          "known_cells": 33,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        },
+        "transferred": {
+          "success": true,
+          "steps": 76,
+          "collisions": 0,
+          "known_cells": 188,
+          "trace": [],
+          "adapted": false,
+          "control_shifts_detected": 0,
+          "observation_scope": "position, goal coordinate and adjacent cells only"
+        }
+      }
+    ],
+    "baseline_success_rate": 0.05,
+    "transfer_success_rate": 1.0,
+    "frozen_weights": true,
+    "held_out_layouts": true,
+    "baseline": "random actions, same local observation interface and step budget",
+    "scope": "learned primitive dynamics reused by an engineered planner on unseen layouts"
+  },
+  "changed_controls": {
+    "success": true,
+    "steps": 22,
+    "collisions": 4,
+    "known_cells": 42,
+    "trace": [
+      {
+        "position": [
+          1,
+          1
+        ],
+        "action": 2,
+        "next_position": [
+          1,
+          1
+        ],
+        "reason": "explore observed frontier",
+        "model_known_actions": 4
+      },
+      {
+        "position": [
+          1,
+          1
+        ],
+        "action": 3,
+        "next_position": [
+          1,
+          1
+        ],
+        "reason": "unknown controls",
+        "model_known_actions": 3
+      },
+      {
+        "position": [
+          1,
+          1
+        ],
+        "action": 3,
+        "next_position": [
+          1,
+          1
+        ],
+        "reason": "unknown controls",
+        "model_known_actions": 3
+      },
+      {
+        "position": [
+          1,
+          1
+        ],
+        "action": 3,
+        "next_position": [
+          1,
+          1
+        ],
+        "reason": "unknown controls",
+        "model_known_actions": 3
+      },
+      {
+        "position": [
+          1,
+          1
+        ],
+        "action": 1,
+        "next_position": [
+          1,
+          2
+        ],
+        "reason": "unknown controls",
+        "model_known_actions": 3
+      },
+      {
+        "position": [
+          1,
+          2
+        ],
+        "action": 1,
+        "next_position": [
+          1,
+          3
+        ],
+        "reason": "unknown controls",
+        "model_known_actions": 3
+      },
+      {
+        "position": [
+          1,
+          3
+        ],
+        "action": 3,
+        "next_position": [
+          1,
+          2
+        ],
+        "reason": "unknown controls",
+        "model_known_actions": 3
+      },
+      {
+        "position": [
+          1,
+          2
+        ],
+        "action": 1,
+        "next_position": [
+          1,
+          3
+        ],
+        "reason": "unknown controls",
+        "model_known_actions": 3
+      },
+      {
+        "position": [
+          1,
+          3
+        ],
+        "action": 0,
+        "next_position": [
+          2,
+          3
+        ],
+        "reason": "unknown controls",
+        "model_known_actions": 3
+      },
+      {
+        "position": [
+          2,
+          3
+        ],
+        "action": 3,
+        "next_position": [
+          2,
+          2
+        ],
+        "reason": "unknown controls",
+        "model_known_actions": 3
+      },
+      {
+        "position": [
+          2,
+          2
+        ],
+        "action": 2,
+        "next_position": [
+          1,
+          2
+        ],
+        "reason": "unknown controls",
+        "model_known_actions": 3
+      },
+      {
+        "position": [
+          1,
+          2
+        ],
+        "action": 1,
+        "next_position": [
+          1,
+          3
+        ],
+        "reason": "explore observed frontier",
+        "model_known_actions": 4
+      },
+      {
+        "position": [
+          1,
+          3
+        ],
+        "action": 1,
+        "next_position": [
+          1,
+          4
+        ],
+        "reason": "explore observed frontier",
+        "model_known_actions": 4
+      },
+      {
+        "position": [
+          1,
+          4
+        ],
+        "action": 1,
+        "next_position": [
+          1,
+          5
+        ],
+        "reason": "explore observed frontier",
+        "model_known_actions": 4
+      },
+      {
+        "position": [
+          1,
+          5
+        ],
+        "action": 1,
+        "next_position": [
+          1,
+          6
+        ],
+        "reason": "explore observed frontier",
+        "model_known_actions": 4
+      },
+      {
+        "position": [
+          1,
+          6
+        ],
+        "action": 1,
+        "next_position": [
+          1,
+          7
+        ],
+        "reason": "explore observed frontier",
+        "model_known_actions": 4
+      },
+      {
+        "position": [
+          1,
+          7
+        ],
+        "action": 0,
+        "next_position": [
+          2,
+          7
+        ],
+        "reason": "explore observed frontier",
+        "model_known_actions": 4
+      },
+      {
+        "position": [
+          2,
+          7
+        ],
+        "action": 0,
+        "next_position": [
+          3,
+          7
+        ],
+        "reason": "explore observed frontier",
+        "model_known_actions": 4
+      },
+      {
+        "position": [
+          3,
+          7
+        ],
+        "action": 0,
+        "next_position": [
+          4,
+          7
+        ],
+        "reason": "explore observed frontier",
+        "model_known_actions": 4
+      },
+      {
+        "position": [
+          4,
+          7
+        ],
+        "action": 0,
+        "next_position": [
+          5,
+          7
+        ],
+        "reason": "explore observed frontier",
+        "model_known_actions": 4
+      }
+    ],
+    "adapted": true,
+    "control_shifts_detected": 4,
+    "observation_scope": "position, goal coordinate and adjacent cells only"
+  },
+  "classifier_training": {
+    "name": "fixture_preferences",
+    "updates": 360,
+    "training_accuracy": 1.0,
+    "labels": [
+      "quiet",
+      "social"
+    ],
+    "algorithm": "linear softmax classifier, supervised SGD",
+    "scope": "lexical feature learning; training accuracy is not held-out performance"
+  },
+  "classifier_holdout": {
+    "accuracy": 1.0,
+    "examples": [
+      {
+        "text": "quiet peaceful reading",
+        "expected": "quiet",
+        "label": "quiet",
+        "scores": {
+          "quiet": 0.8412127703786972,
+          "social": 0.15878722962130282
+        },
+        "calibrated": false,
+        "training_updates": 360,
+        "abstain": false
+      },
+      {
+        "text": "party dancing friends",
+        "expected": "social",
+        "label": "social",
+        "scores": {
+          "quiet": 0.09588473699361483,
+          "social": 0.9041152630063852
+        },
+        "calibrated": false,
+        "training_updates": 360,
+        "abstain": false
+      },
+      {
+        "text": "alone quiet library",
+        "expected": "quiet",
+        "label": "quiet",
+        "scores": {
+          "quiet": 0.9547688171652633,
+          "social": 0.045231182834736754
+        },
+        "calibrated": false,
+        "training_updates": 360,
+        "abstain": false
+      },
+      {
+        "text": "social friends crowd",
+        "expected": "social",
+        "label": "social",
+        "scores": {
+          "quiet": 0.09431534896323392,
+          "social": 0.9056846510367661
+        },
+        "calibrated": false,
+        "training_updates": 360,
+        "abstain": false
+      }
+    ],
+    "held_out": true,
+    "count": 4,
+    "scope": "exact label agreement on supplied held-out examples, not human fidelity"
+  },
+  "teaching": {
+    "name": "fixture_preferences",
+    "updates": 180,
+    "training_accuracy": 1.0,
+    "labels": [
+      "quiet",
+      "social"
+    ],
+    "algorithm": "linear softmax classifier, supervised SGD",
+    "scope": "lexical feature learning; training accuracy is not held-out performance",
+    "teacher_id": "8dacb42e-9312-4c35-a8c4-d9a56a610489",
+    "student_id": "626edc52-e07f-4317-a328-fc8c3b24f00f",
+    "mechanism": "supervised rehearsal of teacher-retained demonstrations; no DNA or biography copying"
+  },
+  "student_holdout": {
+    "accuracy": 1.0,
+    "examples": [
+      {
+        "text": "quiet peaceful reading",
+        "expected": "quiet",
+        "label": "quiet",
+        "scores": {
+          "quiet": 0.7965217371108737,
+          "social": 0.2034782628891262
+        },
+        "calibrated": false,
+        "training_updates": 180,
+        "abstain": false
+      },
+      {
+        "text": "party dancing friends",
+        "expected": "social",
+        "label": "social",
+        "scores": {
+          "quiet": 0.13673090762775927,
+          "social": 0.8632690923722407
+        },
+        "calibrated": false,
+        "training_updates": 180,
+        "abstain": false
+      },
+      {
+        "text": "alone quiet library",
+        "expected": "quiet",
+        "label": "quiet",
+        "scores": {
+          "quiet": 0.9235720818336783,
+          "social": 0.07642791816632168
+        },
+        "calibrated": false,
+        "training_updates": 180,
+        "abstain": false
+      },
+      {
+        "text": "social friends crowd",
+        "expected": "social",
+        "label": "social",
+        "scores": {
+          "quiet": 0.13567915755259208,
+          "social": 0.8643208424474078
+        },
+        "calibrated": false,
+        "training_updates": 180,
+        "abstain": false
+      }
+    ],
+    "held_out": true,
+    "count": 4,
+    "scope": "exact label agreement on supplied held-out examples, not human fidelity"
+  },
+  "belief_tracking": {
+    "trials": [
+      {
+        "visible": true,
+        "expected": "new",
+        "actual": "new",
+        "correct": true
+      },
+      {
+        "visible": false,
+        "expected": "original",
+        "actual": "original",
+        "correct": true
+      },
+      {
+        "visible": true,
+        "expected": "new",
+        "actual": "new",
+        "correct": true
+      },
+      {
+        "visible": false,
+        "expected": "original",
+        "actual": "original",
+        "correct": true
+      },
+      {
+        "visible": true,
+        "expected": "new",
+        "actual": "new",
+        "correct": true
+      },
+      {
+        "visible": false,
+        "expected": "original",
+        "actual": "original",
+        "correct": true
+      },
+      {
+        "visible": true,
+        "expected": "new",
+        "actual": "new",
+        "correct": true
+      },
+      {
+        "visible": false,
+        "expected": "original",
+        "actual": "original",
+        "correct": true
+      },
+      {
+        "visible": true,
+        "expected": "new",
+        "actual": "new",
+        "correct": true
+      },
+      {
+        "visible": false,
+        "expected": "original",
+        "actual": "original",
+        "correct": true
+      },
+      {
+        "visible": true,
+        "expected": "new",
+        "actual": "new",
+        "correct": true
+      },
+      {
+        "visible": false,
+        "expected": "original",
+        "actual": "original",
+        "correct": true
+      },
+      {
+        "visible": true,
+        "expected": "new",
+        "actual": "new",
+        "correct": true
+      },
+      {
+        "visible": false,
+        "expected": "original",
+        "actual": "original",
+        "correct": true
+      },
+      {
+        "visible": true,
+        "expected": "new",
+        "actual": "new",
+        "correct": true
+      },
+      {
+        "visible": false,
+        "expected": "original",
+        "actual": "original",
+        "correct": true
+      },
+      {
+        "visible": true,
+        "expected": "new",
+        "actual": "new",
+        "correct": true
+      },
+      {
+        "visible": false,
+        "expected": "original",
+        "actual": "original",
+        "correct": true
+      },
+      {
+        "visible": true,
+        "expected": "new",
+        "actual": "new",
+        "correct": true
+      },
+      {
+        "visible": false,
+        "expected": "original",
+        "actual": "original",
+        "correct": true
+      }
+    ],
+    "accuracy": 1.0
+  },
+  "human_data_used": false,
+  "human_fidelity_measured": false,
+  "limitations": [
+    "Planner is engineered; only primitive transition dynamics are learned.",
+    "Classifiers learn lexical patterns from six synthetic examples.",
+    "Belief tracking uses declared event visibility, not inferred human mental states.",
+    "No human comparator, real participant data, whole-brain simulation or general intelligence result."
+  ]
+}
